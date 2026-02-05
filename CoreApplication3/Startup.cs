@@ -1,13 +1,4 @@
 ﻿
-
-
-
-
-
-
-
-
-
 namespace CoreApplication3
 {
 
