@@ -1,12 +1,3 @@
-﻿
-
-
-
-
-
-
-
-
 
 namespace CoreApplication3
 {
