@@ -6,6 +6,7 @@ namespace CoreApplication3
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            
 
         }
 
@@ -15,6 +16,7 @@ namespace CoreApplication3
             {
                 app.UseDeveloperExceptionPage();
             }
+
 
             app.Run(async (context) =>
             {
