@@ -3,7 +3,7 @@ using CoreApplication3.Data.Models;
 
 namespace CoreApplication3.Data.Mocks
 {
-    public class MockCategoryRepository : ICategoryRepository
+    public class MockCategoryRepository
     {
        public IEnumerable<Category> Categories
         {

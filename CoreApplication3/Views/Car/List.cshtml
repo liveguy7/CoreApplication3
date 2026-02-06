@@ -8,12 +8,11 @@
 
 <br />
 @{
-    foreach(var car in Model.Cars)
+
+    foreach(Car car in Model.Cars)
     {
-        <div>
-        <h4>Car Name: @car.Name</h4>
-        <p>Prioce: @car.Price.ToString("c")</p>
-        </div>
+        @Html.Partial("_CarSummary", car)
+
     }
 }
 
