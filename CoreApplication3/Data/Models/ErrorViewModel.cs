@@ -1,4 +1,4 @@
-namespace CoreApplication3.Models
+namespace CoreApplication3.Data.Models
 {
     public class ErrorViewModel
     {
