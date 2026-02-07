@@ -12,6 +12,7 @@ namespace CoreApplication3.Data
 
         public DbSet<Car> carTarget { get; set; }
         public DbSet<Category> categoryTarget { get; set; }
+        public DbSet<ShoppingCartItem> shoppingCartTarget { get; set; }
 
     }
 }

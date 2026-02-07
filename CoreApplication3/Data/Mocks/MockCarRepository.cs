@@ -5,7 +5,7 @@ namespace CoreApplication3.Data.Mocks
 {
     public class MockCarRepository
     {
-        private readonly int mocktest;
+        
 
     }
 }

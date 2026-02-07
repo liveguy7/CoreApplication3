@@ -1,0 +1,22 @@
+﻿@model HomeViewModel
+
+
+@Html.Partial("_Carousel")
+
+<h2>Special Cars</h2>
+
+<div class="row">
+    @foreach(var car in Model.SpecialCars)
+    {
+        @Html.Partial("_CarSummary",car)
+    }
+
+</div>
+
+
+
+
+
+
+
+
