@@ -26,6 +26,7 @@ namespace CoreApplication3
             services.AddTransient<ICarRepository, CarRepository>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped(sp => ShoppingCart.GetCart(sp));
             services.AddMvc(options =>
                              options.EnableEndpointRouting = false);

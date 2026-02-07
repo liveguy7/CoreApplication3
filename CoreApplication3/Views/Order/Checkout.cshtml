@@ -1,0 +1,45 @@
+﻿@model Order
+
+<div class="row">
+    <form>
+        <div class="mb-3">
+            <label asp-for="LastName" class="form-label">Last Name</label>
+            <input style="width:50%" type="text"
+                   class="form-control"
+                   id="firstName"
+                   name="FirstName"
+                   placeholder="Enter first name" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="FirstName" class="form-label">First Name</label>
+            <input style="width:50%" type="text"
+                   class="form-control"
+                   id="lastName"
+                   name="LastName"
+                   placeholder="Enter last name" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Info" class="form-label">Info</label>
+            <input style="width:50%" type="text"
+                   class="form-control"
+                   id="info"
+                   name="Info"
+                   placeholder="Additional info" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
