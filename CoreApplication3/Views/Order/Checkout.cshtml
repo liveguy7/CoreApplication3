@@ -1,7 +1,8 @@
 ﻿@model Order
 
 <div class="row">
-    <form>
+      <div asp-validation-summary="All" class="text-danger"></div>
+       <form asp-action="Checkout" method="post" role="form">
         <div class="mb-3">
             <label asp-for="LastName" class="form-label">Last Name</label>
             <input style="width:50%" type="text"
@@ -27,9 +28,10 @@
                    id="info"
                    name="Info"
                    placeholder="Additional info" />
+            <span asp-validation-for="Info" class="text-danger"></span>
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+       
     </form>
 
 </div>
